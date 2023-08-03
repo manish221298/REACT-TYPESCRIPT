@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  /* background-color: rgb(254, 250, 250); */
+}
+
+.todo-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 850px;
+}
+
+
+/* css for form */
+.form-container {
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  width: 50%;
+  /* background-color: rgb(219, 235, 250); */
+}
+
+.label {
+  font-size: 1.9rem;
+}
+
+.input {
+  width: 65%;
+  height: 3rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  font-size: xx-large;
+  padding-left: 1rem;
+}
+
+.submit {
+  background-color: rgb(145, 152, 243);
+  margin: 20px;
+  font-size: xx-large;
+  border-radius: 0.5rem;
+}
+
+
+/* // css for  list */
+.list-container {
+  flex-direction: column;
+  justify-content: end;
+  width: 50%;
+  /* background-color: rgb(245, 243, 242); */
+}
+
+ul li {
+  list-style: none;
+}
+
+.todo-list {
+  margin: 2rem;
+  width: 85%;
+  background-color: rgba(235, 219, 219, 0.59);  
+  padding: 1rem;
+  display: flex;
+}
+
+.list-title {
+  justify-content: start;
+  text-align: start;
+  width: 30%;
+  margin: 10px;
+  font-size: 1.3rem;
+}
+
+button {
+  background-color: rgb(161, 164, 173);
+  margin: 10px;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+  justify-content: end;
+}
+
+.list-button {
+  justify-content: end;
+  text-align: end;
+  width: 70%;
+}
+
+/* .todo-list :hover{
+  background-color: brown;
+  width: 90%;
+} */
+
+
+
+/* //  navbar css */
+.navbar{
+  background-color: black;
+  color: azure;
+  width: 100%;
+  height: 4rem;
+}
+
+.footer{
+  background-color: black;
+  color: azure;
+  width: 100%;
+  height: 3.5rem;
+}
+
+.checkbox-table{
+  width: 100%;
+}
